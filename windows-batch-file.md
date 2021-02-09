@@ -9,4 +9,4 @@
 | > | Prints output of the command to a named file. If file does not exist, it creates one otherwise overwrites existing file | `command > file.txt` |
 | >> | Prints the output of the command to an existing file. If file doesn't exist will create one. |	`command >> file_name` |
 | <	| Takes the given file data as input to the command. | `command < somefile` |
-| ¦	| Push the putput of first command as input to the proceeding commands. | `command1 ¦ command2` |
+| ¦	| Push the output of first command as input to the proceeding commands. | `command1 ¦ command2` |
